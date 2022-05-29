@@ -1,0 +1,91 @@
+h1
+{
+    color: black;
+}
+body
+{
+    background-color: rgba(128, 128, 128, 0.342);
+}
+
+.fts
+{
+ color: white;
+ text-align: center;
+ font-family: 'Noto Sans', sans-serif;
+ background-color: #000000;
+ /* border: 20px solid black;  */
+ padding: 20px 20px 20px 20px; 
+ height: 60px;
+ /* margin: 20px 220px 20px 20px;  */
+}
+.ftls
+{
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color:grey;
+    border-radius: 30px;
+    
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-brand{
+    border-right: 2px solid white;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+    text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+    
+}
+#footer h1 {
+    color: white;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+    margin-left: 28pc;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+    
+}
+#footer .social-item img {
+	filter: grayscale(1);
+    height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+    
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 0.05rem;
+}
